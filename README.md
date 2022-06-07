@@ -18,7 +18,7 @@ The purpose of this project is to improve my logic thinking and Computational th
 - DOM manipulation.
 - API fetch and data manipulation.
 - Logical thinking and problem solving.
-- Planning the whole process
+- Planning the whole process.
 
 
 
