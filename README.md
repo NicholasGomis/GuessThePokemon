@@ -1,16 +1,24 @@
 **Table of Contents**
 1. [Purpose](#{Purpose}) 
-2. [Outcomes](#{Outcomes})
-3. [Technologies](#{Technologies})
-4. [Reflection](#{Reflection})
-5. [Credits](#{Credits})
+2. [mvp](#{Mvp})
+3. [Outcomes](#{Outcomes})
+4. [Technologies](#{Technologies})
+5. [Reflection](#{Reflection})
+6. [Credits](#{Credits})
 
 
 
 ## Purpose
 
+The purpose of this project is to improve my logic thinking and Computational thinking, trying to breaking down problems in small chunks, making easier to solve them. In addition, this will be an opportunity to put into test my Javascript fundamentals and manipulating the DOM as well as fetching api and understand its data structure. The project is also intented to experiment and play with the code and not be afraid of destroy code and try new things. 
+
+## MVP
 
 ## Outcomes
+- DOM manipulation.
+- API fetch and data manipulation.
+- Logical thinking and problem solving.
+- Planning the whole process
 
 
 
@@ -23,8 +31,9 @@
 
 ## Reflection
 
-## Credits
+Working in progress (Reflection will be out once completed)
 
+## Credits
 Nicholas Gomis
 
 <p align="left">
