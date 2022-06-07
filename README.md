@@ -10,11 +10,25 @@
 
 ## Purpose
 
-The purpose of this project is to improve my logic thinking and Computational thinking, trying to breaking down problems in small chunks, making easier to solve them. In addition, this will be an opportunity to put into test my Javascript fundamentals and manipulating the DOM as well as fetching api and understand its data structure. The project is also intented to experiment and play with the code and not be afraid of destroy code and try new things. 
+The goal of the project is to create a quiz game using the Pokemon characters from an API. The game should be able to display an image of a pokemon and the user attempt to identify the right answers using the given pokemon names.
+
+
 
 ## MVP
+- Fetch the Api and able to randomly display the Pokemon Image three randoma answers (1 right and 2 wrongs)
+
+
+## Prototypes
+Low-Fidelity:
+<img src="https://i.ibb.co/Krf72Q7/Clean-Shot-2022-05-24-at-16-50-17-2x.png" alt="lowfidelitywf"/>
+
+
+High-Fidelity:
+<img src="https://i.ibb.co/QmKcV4Q/Clean-Shot-2022-06-07-at-17-35-13-2x.png" alt="highfidelitywf"/>
 
 ## Outcomes
+The purpose of this project is to improve my Logic thinking, Computational Thinking and  Problem Solving, trying to breaking down problems in small chunks, making easier to solve them. In addition, this will be an opportunity to put into test my Javascript fundamentals and manipulating the DOM as well as fetching api and understand its data structure. The project is also intented to experiment and play with the code and not be afraid of destroy code and try new things. 
+
 - DOM manipulation.
 - API fetch and data manipulation.
 - Logical thinking and problem solving.
