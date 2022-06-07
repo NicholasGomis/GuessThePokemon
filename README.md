@@ -10,9 +10,19 @@
 
 ## Purpose
 
-The purpose of this project is to improve my logic thinking and Computational thinking, trying to breaking down problems in small chunks, making easier to solve them. In addition, this will be an opportunity to put into test my Javascript fundamentals and manipulating the DOM as well as fetching api and understand its data structure. The project is also intented to experiment and play with the code and not be afraid of destroy code and try new things. 
+The purpose of this project is to improve my Logic thinking, Computational Thinking and  Problem Solving, trying to breaking down problems in small chunks, making easier to solve them. In addition, this will be an opportunity to put into test my Javascript fundamentals and manipulating the DOM as well as fetching api and understand its data structure. The project is also intented to experiment and play with the code and not be afraid of destroy code and try new things. 
 
 ## MVP
+
+
+
+## Prototypes
+Low-Fidelity:
+<img src="https://i.ibb.co/Krf72Q7/Clean-Shot-2022-05-24-at-16-50-17-2x.png" alt="lowfidelitywf"/>
+
+
+High-Fidelity:
+<img src="https://i.ibb.co/QmKcV4Q/Clean-Shot-2022-06-07-at-17-35-13-2x.png" alt="highfidelitywf"/>
 
 ## Outcomes
 - DOM manipulation.
