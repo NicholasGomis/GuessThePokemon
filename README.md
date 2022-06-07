@@ -10,12 +10,19 @@
 
 ## Purpose
 
-The goal of the project is to create a quiz game using the Pokemon characters from an API. The game should be able to display an image of a pokemon and the user attempt to identify the right answers using the given pokemon names.
+The goal of the project is to create a quiz game using the Pokemon characters from the Pokemon API. The game should be able to display an image of a pokemon and the user attempt to identify the right answers using the given pokemon names.
 
 
 
-## MVP
-- Fetch the Api and able to randomly display the Pokemon Image three randoma answers (1 right and 2 wrongs)
+## MVP:
+- Fetch the Api and able to randomly display a Pokemon Image & three random answers (1 right and 2 wrongs).
+- The user should be able the user a GUI to pick the answers.
+- The game should be able to identify whether the user answer match with the image (correct answer)
+
+## Beyond MVP:
+- Should be able to count the number of rounds.
+- Should be able to track the number of correct answer.
+-  Should have a reset button to restart the game.
 
 
 ## Prototypes
