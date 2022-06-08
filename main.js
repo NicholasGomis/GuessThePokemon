@@ -2,7 +2,7 @@ let randomPokeId = [];
 let randomPokemon = Math.floor((Math.random() * 100) + 1);
 let randomPokemonTwo = Math.floor((Math.random() * 100) + 1);
 let randomPokemonThree = Math.floor((Math.random() * 100) + 1);
-
+let hardCodedAnswer = 5;
 
 let generateNumbers = () => {
 
@@ -13,6 +13,10 @@ while(randomPokeId.length < 3){
 return randomPokeId;
 }
 
+let fetchRandomID = (nums) => {
+let randoms = Math.floor(Math.random() * randomPokeId.length);
+console.log(randoms, randomPokeId[randoms]);
+}
 
 async function fetchPokemons(){
     const response = await fetch (`https://pokeapi.co/api/v2/pokemon/${randomPokeId[0]}`);
@@ -34,3 +38,4 @@ async function fetchPokemons(){
 
 fetchPokemons(generateNumbers())
 console.log(generateNumbers())
+fetchRandomID()
