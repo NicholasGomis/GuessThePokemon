@@ -1,28 +1,20 @@
 let randomPokeId = [];
-let randomPokemon = Math.floor((Math.random() * 100) + 1);
-let randomPokemonTwo = Math.floor((Math.random() * 100) + 1);
-let randomPokemonThree = Math.floor((Math.random() * 100) + 1);
 
 
-console.log(randomPokeId)
 let generateNumbers = () => {
 
 while(randomPokeId.length < 3){
-    let r = Math.floor(Math.random() * 100) + 1;
-    if(randomPokeId.indexOf(r) === -1) randomPokeId.push(r);
+    let randomNumb = Math.floor(Math.random() * 100) + 1;
+    if(randomPokeId.indexOf(randomNumb) === -1) randomPokeId.push(randomNumb);
 }
 return randomPokeId;
 }
 
-// let fetchRandomID = (nums) => {
-// let randoms = Math.floor(Math.random() * randomPokeId.length);
-
-// console.log(randoms, randomPokeId[randoms]);
-
-// }
 
 let shuffleRandomID = () => {
- result  = randomPokeId.sort( function() { return 0.5 - Math.random() } );
+
+ let result  = randomPokeId.sort( function() { return 0.5 - Math.random() } );
+ console.log(`this is result`, result)
   return result;
 }
 
@@ -60,5 +52,4 @@ async function fetchPokemons(){
 fetchPokeImage(generateNumbers())
 fetchPokemons(shuffleRandomID())
 // console.log(`generated`,generateNumbers())
-
 // console.log('shuffled',shuffleRandomID())
