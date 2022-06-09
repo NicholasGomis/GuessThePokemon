@@ -13,10 +13,18 @@ while(randomPokeId.length < 3){
 return randomPokeId;
 }
 
-let fetchRandomID = (nums) => {
-let randoms = Math.floor(Math.random() * randomPokeId.length);
-console.log(randoms, randomPokeId[randoms]);
+// let fetchRandomID = (nums) => {
+// let randoms = Math.floor(Math.random() * randomPokeId.length);
+
+// console.log(randoms, randomPokeId[randoms]);
+
+// }
+
+let shuffleRandomID = (nums) => {
+   let result = randomPokeId.sort( function() { return 0.5 - Math.random() } );
+    console.log(result)
 }
+
 
 async function fetchPokemons(){
     const response = await fetch (`https://pokeapi.co/api/v2/pokemon/${randomPokeId[0]}`);
@@ -38,4 +46,5 @@ async function fetchPokemons(){
 
 fetchPokemons(generateNumbers())
 console.log(generateNumbers())
-fetchRandomID()
+// fetchRandomID()
+console.log(shuffleRandomID())
