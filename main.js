@@ -13,9 +13,9 @@ return randomPokeId;
 
 let shuffleRandomID = () => {
 
- let result  = randomPokeId.sort( function() { return 0.5 - Math.random() } );
- console.log(`this is result`, result)
-  return result;
+let result  = randomPokeId.sort( function() { return 0.5 - Math.random() } );
+console.log(`this is result`, result)
+return result;
 }
 
 
@@ -23,7 +23,7 @@ async function fetchPokeImage(){
     console.log(`img`, randomPokeId[0])
     const response = await fetch (`https://pokeapi.co/api/v2/pokemon/${randomPokeId[0]}`);
     const dataFour = await response.json();
-   
+
     console.log(dataFour.sprites.back_default)  // Get the image of the pokemon
 
 }
