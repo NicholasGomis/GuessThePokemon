@@ -27,7 +27,7 @@ The goal of the project is to create a quiz game using the Pokemon characters fr
 
 ## Prototypes
 Low-Fidelity:
-<img src="https://i.ibb.co/Krf72Q7/Clean-Shot-2022-05-24-at-16-50-17-2x.png" alt="lowfidelitywf"/>
+<img src="https://i.ibb.co/gZcpNHy/Clean-Shot-2022-08-20-at-13-13-50-2x.png" alt="lowfidelitywf"/>
 
 
 High-Fidelity:
